@@ -1,0 +1,94 @@
+{
+    "buttons": {
+        "cancel": "Отмена",
+        "confirm": "Подтвердить",
+        "create": "Добавить",
+        "delete": "Удалить",
+        "ok": "Ок",
+        "save": "Сохранить"
+    },
+    "components": {
+        "logout_confirm": {
+            "message": "Вы уверены, что хотите выйти из аккаунта?",
+            "title": "Подвердите выход"
+        }
+    },
+    "input": {
+        "article": {
+            "comment": {
+                "detail": "Комментарий",
+                "title": "Тема комментария"
+            }
+        },
+        "dictionary": {
+            "tag": {
+                "code": "Код",
+                "name": "Название",
+                "search": "Поиск..."
+            }
+        },
+        "dummy": "Dummy Input",
+        "login": {
+            "email": "Email",
+            "password": "Пароль",
+            "remember": "Запомнить меня",
+            "reset_password": "Забыли пароль?",
+            "submit": "Войти",
+            "to_register": "Еще нет аккаунта? Зарегистрироваться"
+        },
+        "profile": {
+            "email": "E-mail",
+            "name": "Имя",
+            "password": "Новый пароль",
+            "password_confirmation": "Повторите пароль",
+            "password_current": "Текущий пароль"
+        },
+        "register": {
+            "email": "Email",
+            "have_account": "Уже есть аккаунт?",
+            "name": "Имя",
+            "password_repeat": "Повторите пароль",
+            "passwords_dont_match": "Пароли не совпадают",
+            "submit": "Зарегистрироваться"
+        },
+        "reset": {
+            "password": "Новый пароль",
+            "password_repeat": "Повторите пароль",
+            "submit": "Восстановить пароль"
+        }
+    },
+    "routes": {
+        "auth": "Авторизация",
+        "home": {
+            "article": {
+                "article-details": {
+                    "index": "Статья подробно"
+                },
+                "articles": {
+                    "index": "Каталог статей"
+                },
+                "index": "Статьи",
+                "newest": {
+                    "index": "Свежее"
+                }
+            },
+            "dictionary": {
+                "index": "Справочники",
+                "tag": {
+                    "index": "Тэги"
+                }
+            },
+            "index": "Главная"
+        },
+        "logout": "Выйти",
+        "profile": {
+            "edit": "Настройки профиля"
+        },
+        "register": "Регистрация",
+        "reset_password": "Восстановить пароль"
+    },
+    "welcome": {
+        "login": "Войти",
+        "register": "Зарегистрироваться"
+    }
+}

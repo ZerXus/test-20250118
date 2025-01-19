@@ -1,0 +1,55 @@
+@import "fonts";
+@import 'primeicons/primeicons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    padding: 0 15px;
+    margin: 0;
+    min-height: 100%;
+
+}
+
+html {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    height: 100%;
+}
+
+.form-default {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 1.5rem 2rem;
+    width: 400px;
+
+    .row {
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+    }
+
+    .no-gap {
+        margin: -1.5rem 0;
+    }
+
+    .p-checkbox + label {
+        margin-left: .5rem;
+    }
+
+    .sp-btw {
+        justify-content: space-between;
+    }
+
+    .input-error {
+        margin-top: 0.3rem;
+        color: var(--p-inputtext-invalid-border-color);
+    }
+}
+
+h1 {
+    font-size: 1.75rem;
+    font-weight: bold;
+}

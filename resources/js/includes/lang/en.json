@@ -1,0 +1,94 @@
+{
+    "buttons": {
+        "cancel": "Cancel",
+        "confirm": "Confirm",
+        "create": "Create new",
+        "delete": "Delete",
+        "ok": "Ok",
+        "save": "Save"
+    },
+    "components": {
+        "logout_confirm": {
+            "message": "Are you sure you want to logout?",
+            "title": "Confirm logout"
+        }
+    },
+    "input": {
+        "article": {
+            "comment": {
+                "detail": "Comment",
+                "title": "Comment title"
+            }
+        },
+        "dictionary": {
+            "tag": {
+                "code": "Code",
+                "name": "Name",
+                "search": "Search..."
+            }
+        },
+        "dummy": "Dummy Input",
+        "login": {
+            "email": "Email",
+            "password": "Password",
+            "remember": "Remember me",
+            "reset_password": "Forgot password?",
+            "submit": "Sign in",
+            "to_register": "Don't have account yet? Register"
+        },
+        "profile": {
+            "email": "E-mail",
+            "name": "",
+            "password": "New password",
+            "password_confirmation": "Repeat password",
+            "password_current": "Current password"
+        },
+        "register": {
+            "email": "Email",
+            "have_account": "Already have an account?",
+            "name": "Name",
+            "password_repeat": "Repeat password",
+            "passwords_dont_match": "Passwords doesn't match",
+            "submit": "Sign up"
+        },
+        "reset": {
+            "password": "New password",
+            "password_repeat": "Repeat password",
+            "submit": "Reset password"
+        }
+    },
+    "routes": {
+        "auth": "Auth",
+        "home": {
+            "article": {
+                "article-details": {
+                    "index": "Article"
+                },
+                "articles": {
+                    "index": "Articles list"
+                },
+                "index": "Articles",
+                "newest": {
+                    "index": "Newest"
+                }
+            },
+            "dictionary": {
+                "index": "Dictionaries",
+                "tag": {
+                    "index": "Tags"
+                }
+            },
+            "index": "Home"
+        },
+        "logout": "Log out",
+        "profile": {
+            "edit": "Profile settings"
+        },
+        "register": "Register",
+        "reset_password": "Reset password"
+    },
+    "welcome": {
+        "login": "Log in",
+        "register": "Register"
+    }
+}
